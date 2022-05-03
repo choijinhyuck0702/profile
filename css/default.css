@@ -164,8 +164,29 @@ h2{
     height:100%;
     object-fit: cover;
 }
-.aboutme p{
+.aboutme table.history{
     padding:0 20px;
+    border-collapse: collapse;
+    text-align: left;
+    line-height: 1.5;
+    margin:20px 10px;
+}
+.aboutme table.history thead th {
+    padding: 10px;
+    font-weight: bold;
+    border-bottom: 2px solid #c00;
+}
+.aboutme table.history tbody th {
+    width: 150px;
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    border-right: 1px solid #000;
+}
+.aboutme table.history td {
+    width: 350px;
+    padding: 10px;
+    vertical-align: top;
 }
 
 /* PROJECTS */
